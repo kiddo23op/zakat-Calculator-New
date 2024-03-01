@@ -1,0 +1,283 @@
+  body {
+        font-family: Garamond, serif;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column; /* Added for vertical alignment */
+    }
+
+    .above-fold-content {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.container {
+  background: linear-gradient(0.25turn,LightSkyBlue, CornflowerBlue, DeepSkyBlue);
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px; /* Added to create space between content and calculator */
+}
+.heading {
+  font-family: Sofia, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+.faq {
+  margin: 10px 20px 30px 40px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+select,
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 14px 1px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.section-heading {
+  font-family: "Trirong", serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.subsection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.subsection label {
+  width: 45%;
+}
+
+.subsection input {
+  margin-bottom: 20px;
+  width: 55%;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  margin: auto;
+  padding: 20px 47px 25px 46px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#myModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#zakatResult {
+  text-align: center;
+}
+
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-content, .right-content {
+        width: calc(50% - 10px); /* Adjust width and margin accordingly */
+    }
+
+    .left-content img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .right-content h1 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .right-content p {
+        color: #666;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+	
+	
+	
+	
+	
+	
+@media (max-width: 575.98px) {	
+	
+	body {
+        font-family: Garamond, serif;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column; /* Added for vertical alignment */
+    }
+
+    .above-fold-content {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+	.container {
+    max-width: 90%;
+  }
+  .subsection label {
+    width: 100%;
+}
+  .faq{
+  margin: 10px 40px 30px 40px;
+    text-align: justify;}
+	
+  .p2{
+font-size:15px;}
+.subsection input {
+    margin-bottom: 11px;
+    width: 100%;
+}
+
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-content, .right-content {
+        width: calc(50% - 10px); /* Adjust width and margin accordingly */
+    }
+
+    .left-content img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .right-content h1 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .right-content p {
+        color: #666;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+	.content-container {
+            flex-direction: column;
+        }
+
+        .left-content, .right-content {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+	
+	}
+	
+	/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+.container {
+    max-width: 90%;
+  }
+	.left-content {
+    width: calc(39% - 10px);
+	padding; 10PX 20PX 30PX 40PX;
+}
+ .right-content {
+    width: calc(45% - 10px);
+}}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    max-width: 90%;
+  }
+}
